@@ -1,0 +1,32 @@
+#ab{
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    margin-right: 865px;
+    margin-left: 40px;
+    background-color: dodgerblue;
+}
+
+#iq{
+    border: 2px solid black;
+    background-color: red;
+    margin: 200px 100px 60px 90px;
+}
+
+#qw{
+border: 2px solid black;
+background-color: chartreuse;
+margin: 25px 50px 75px;
+}
+
+#bb{
+    border: 2px solid black;
+    background-color: darkgreen;
+    margin: 100px 75px;
+}
+
+#jj{
+    border: 2px solid black;
+    background-color: dodgerblue;
+    margin: 25px;
+}

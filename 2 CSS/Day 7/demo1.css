@@ -1,0 +1,50 @@
+body{
+    background-color:pink;
+    color:rgb(10, 10, 10);
+    background:  url("https://cdn.pixabay.com/photo/2022/12/01/04/35/sunset-7628294_640.jpg") no-repeat right top fixed;
+    background-size: 2000px;
+    border: dashed;
+   
+
+    border-top: 5px dotted red;
+    border-right: 5px dashed black;
+    border-left: 5px groove blue;
+    border-bottom: solid;
+
+    /* background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-attachment: scroll; */
+}
+h1{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    border: solid;
+    border-width: thick;
+
+    border-radius: 20px;
+
+    border-color: rgb(20, 220, 167);
+
+    
+
+
+}
+p{
+    background-color: rgb(128, 0, 0);
+    border: dotted;
+    border-color: gold;
+    border-width: thick;
+
+    
+
+    /* border: dashed;
+    border: solid;
+    border: groove;
+    border: ridge;
+    border: inset;
+    border: outset;
+    border: hidden; */
+
+
+}
