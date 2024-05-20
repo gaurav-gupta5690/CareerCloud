@@ -1,0 +1,17 @@
+div{
+    background-color: rgb(233, 150, 16);
+    color: crimson;
+    position: sticky;
+    border: 5px solid black;
+    text-align: center;
+    font-size: 50px;
+    /* bottom: 50px; */
+    width: 1004px;
+    top: 250px;
+    left: 300px;
+
+}
+
+p{
+    font-size: 30px;
+}
