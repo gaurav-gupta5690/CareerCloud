@@ -1,0 +1,29 @@
+Span{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    border: 2px solid black;
+    background-color: dodgerblue;
+}
+
+#A{
+    display: inline;
+}
+
+#B{
+    display: inline-block;
+}
+
+#C{
+    display: block;
+}
+
+li{
+    float: left;
+   
+    padding: 20px;
+}
+
+ul{
+    list-style-image: url(https://images.pexels.com/photos/1851164/pexels-photo-1851164.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
