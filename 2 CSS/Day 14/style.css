@@ -1,0 +1,27 @@
+/* input{
+    width: 50%;
+} */
+label{
+    text-align: center;
+}
+
+input[type=text]:focus{
+    width: 50%;
+    padding: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+input[type=email]{
+    width: 50%;
+    padding: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+input[type=password]{
+    width: 50%;
+    padding: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+}

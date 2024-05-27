@@ -1,0 +1,27 @@
+#a{
+    position: relative;
+    display: inline-block;
+}
+
+#b{
+    display: none;
+    position: absolute;
+    background-color: red;
+    color: aliceblue;
+    min-width: 150px;
+    box-shadow: opx 8px 16px 0px (0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+#c{
+    display: none;
+    background-color: blue;
+}
+
+#a:hover #b{
+    display: inline-block;
+}
+
+#c:hover{
+    background-color: blueviolet;
+}

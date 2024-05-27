@@ -1,0 +1,75 @@
+div{
+    height: 20px;
+    width: 50px;
+    border: 2px solid black;
+}
+/* 1) Translate */
+
+
+/* 
+div:hover{
+    background-color: red;
+    transform: translate(50px, 100px);
+} */
+
+/* 2)Rotate */
+
+/* 
+div:hover{
+    background-color: red;
+    transform: rotate(90deg);
+} */
+/* 
+
+div:hover{
+    background-color: red;
+    transform: rotate(-45deg);
+} */
+
+/* 3) Scale */
+
+/* 
+div:hover{
+    background-color: red;
+    transform: Scale(2,3);
+}
+
+
+div:hover{
+    background-color: red;
+    transform: Scalex(2);
+}
+
+
+div:hover{
+    background-color: red;
+    transform: Scaley(4);
+} */
+
+/* 4) Skew  */
+
+/* 
+div:hover{
+    background-color: red;
+    transform: Skew(20deg);
+}
+
+div:hover{
+    background-color: red;
+    transform: Skewx(40deg);
+}
+
+div:hover{
+    background-color: red;
+    transform: Skewy(54deg);
+}
+*/
+
+/* 5) Matrix */
+
+
+div:hover{
+    background-color: red;
+    transform: Matrix(2,-03,0,1,0,0);
+}
+
