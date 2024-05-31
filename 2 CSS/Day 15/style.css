@@ -1,0 +1,48 @@
+div{
+    height: 100px;
+    width: 100px;
+    color: white;
+    border-radius: 100px;
+    background-color:orange;
+    border: 3px solid black;
+    /* transition: width 1s; */
+    
+}
+/* 
+#a{
+    transition-timing-function: ease;
+    
+}
+
+#b{
+    transition-timing-function: linear;
+}
+
+#c{
+    transition-timing-function: ease-in;
+}
+
+#d{
+    transition-timing-function: ease-out;
+}
+
+#e{
+    transition-timing-function: ease-in-out;
+}
+
+div:hover{
+    width: 400px;
+    background-color: yellow;
+} */
+
+#a:hover{
+background-color: red;
+}
+
+#b:hover{
+background-color: yellow;
+}
+
+#c:hover{
+background-color:rgb(34, 189, 34);
+}
