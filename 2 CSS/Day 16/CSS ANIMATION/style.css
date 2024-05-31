@@ -1,0 +1,19 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: Gaurav;
+    animation-duration: 10s;
+}
+/* 
+@keyframes Gaurav{
+    from{background-color: red;}
+    to{background-color: green;}
+} */
+
+@keyframes Gaurav{
+    0%{background-color: blue;}
+    25%{background-color: green;}
+    50%{background-color: orange;}
+    75%{background-color: pink;}
+}

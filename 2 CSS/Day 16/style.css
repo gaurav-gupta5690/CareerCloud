@@ -1,0 +1,7 @@
+div:hover{
+    height: 100px;
+    width: 100px;
+   background-color: red;
+   border: 4px solid black;
+    transition: width 2s linear 4s;
+}
