@@ -1,0 +1,21 @@
+div{
+    height: 200px;
+    width: 200px;
+    animation-name: Gaurav;
+    background-color: red;
+    animation-duration: 0.1s;
+    animation-delay: 1s;
+    position: relative;
+    border: 2px solid;
+    animation-iteration-count: 50;
+    animation-direction: alternate;
+    border-radius: 100px;
+}
+
+@keyframes Gaurav{
+  0%{background-color:red; left:0px; top:0px;}
+  25%{background-color:yellow; left:200px; top:0px;}
+  50%{background-color:blue; left:200px; top:200px;}
+  75%{background-color:green; left:0px; top:200px;}
+  100%{background-color:red; left:0px; top:0px;}
+}

@@ -4,6 +4,7 @@ div{
     background-color: red;
     animation-name: Gaurav;
     animation-duration: 10s;
+    border: 2px solid;
 }
 /* 
 @keyframes Gaurav{
@@ -16,4 +17,5 @@ div{
     25%{background-color: green;}
     50%{background-color: orange;}
     75%{background-color: pink;}
+    100%{background-color: black;}
 }
