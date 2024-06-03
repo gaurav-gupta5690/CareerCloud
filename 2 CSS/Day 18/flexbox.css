@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    background-color: rgba(232, 192, 255, 0.852);
+
+}
+
+.container>div{
+    background-color:rgb(255, 0, 162);
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    
+}
