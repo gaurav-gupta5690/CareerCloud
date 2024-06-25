@@ -22,4 +22,4 @@ let text="";
 for(const i of Demo){
     text += i + "<BR>";
 }
-document.getElementById("aa").innerHTML=text;
+document.getElementById("aa").innerHTML=  Demo instanceof Set;
