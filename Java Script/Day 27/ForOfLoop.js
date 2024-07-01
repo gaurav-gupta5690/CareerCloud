@@ -16,7 +16,7 @@ for(let i of cars)
 
     let textt="";
 
-    for(let i of name)
+    for(let i of name) 
         {
             textt +=i;
         }

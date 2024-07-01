@@ -5,5 +5,5 @@ let c = prompt("Enter Area of Circle");
 switch(a)
 {
     case "abc"
-    x = 3.14*a*a
+    a = 3.14*a*a
 }
