@@ -23,3 +23,13 @@ for(let i = 0; i<=a.length; i++)
                 b+=+"<BR>"
             }
     }
+
+
+    let c = [5, 4, 4, 6, 2];
+    let sum =0;
+
+    for(let i=0; i<c.length; i++)
+        {
+            sum=sum+c[i];
+        }
+        document.getElementById("cc").innerHTML="Total of Sum =" + sum;
