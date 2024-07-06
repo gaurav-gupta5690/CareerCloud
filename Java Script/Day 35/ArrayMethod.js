@@ -31,4 +31,3 @@ document.getElementById("dd").innerHTML=fooditems;
 
 fooditems.unshift("Orange")
 document.getElementById("ee").innerHTML=fooditems;
-
