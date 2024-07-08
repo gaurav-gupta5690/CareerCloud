@@ -27,11 +27,18 @@ const e1 = e.toReversed();
 document.getElementById("ee").innerHTML="5] "+e1;
 
 
+
 const f = [33,44,22,47,34,64,23,54];
 f.sort(function(a,b){return a-b});
 document.getElementById("ff").innerHTML="6] "+ f;
 
 
+
 const g = [33,44,22,47,34,64,23,54];
 g.sort(function(){return 0.5-Math.random()});
 document.getElementById("gg").innerHTML="7] "+ g;
+
+
+const h =[23,43,56,76,86,45,65,33];
+h.splice(1,2,3,34,24)
+document.getElementById("hh").innerHTML="8] "+ h;
