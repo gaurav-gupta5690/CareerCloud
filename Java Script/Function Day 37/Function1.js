@@ -1,4 +1,4 @@
-//1
+//1 simple function
 
 let a = prompt("Enter The Hight");
 let height = parseInt(a);
@@ -50,3 +50,11 @@ document.getElementById("cc").innerHTML= additionn(4,6);
 const num = new Function("x","b","return x*b");
 
 document.getElementById("dd").innerHTML= num(8,6);
+
+
+//5 constructor  practice
+
+const xyz = new Function("x","y","z", "return x+y+z")
+
+document.getElementById("ee").innerHTML= xyz(4,6,2);
+
