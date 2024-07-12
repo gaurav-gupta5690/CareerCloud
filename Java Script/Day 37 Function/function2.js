@@ -29,4 +29,5 @@ const child ={
     fruit : "Apple",
 };
 
+
 document.getElementById("cc").innerHTML= child.FName + child.Space + child.LName + child.Space + "He was a" + child.Space + child.Age + child.Space + "Year Old Child" + child.Space +"And he was Biting a" + child.Space + child.fruit;
