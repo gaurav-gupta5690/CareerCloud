@@ -6,10 +6,14 @@ bt1.onclick = () =>
     
     let xyz
 
-    if (hour < 18) {
+    if (hour < 10) {
         xyz = "Good Morning";
-      } else {
-        xyz = "Good evening";
+      } 
+      else if(hour < 20) {
+        xyz = "Good Day";
+      }
+      else{
+        xyz = "Good Evening"
       }
 
 
