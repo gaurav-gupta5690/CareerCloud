@@ -83,7 +83,108 @@ areaoftringle()
     let a = 0.5*this.b*this.h;
     return a;
 }
+
 }
 const ar = new area(3,8);
 
 document.getElementById("kk").innerHTML="Area of Tringle =" + ar.areaoftringle();
+
+
+// //Example 5
+
+// class Circle{
+//     constructor()
+//     {
+//         let r2=prompt("Enter Any Number For Circle");
+//         this.r1=parseInt(r2);
+//     }
+
+
+// areaofcircle()
+// {
+//     let a = 3.14*this.r1*this.r1;
+//     return a;
+// }
+// }
+
+// const cir = new Circle();
+// document.getElementById("ll").innerHTML="Area Of Circle = "+ cir.areaofcircle();
+
+
+// //Example 6
+
+// class rectangle{
+//     constructor()
+//     {
+//         let l1= prompt("Enter length of Rectangle");
+//         this.l=parseInt(l1);
+//         let w1= prompt("Enter Width of Rectangle");
+//         this.w=parseInt(w1);
+//     }
+
+//     areaofrectangle()
+//     {
+//         let b = this.l*this.w;
+//         return b;
+//     }
+// }
+
+// const rect =  new rectangle();
+// document.getElementById("mm").innerHTML="Your Area of Rectangle is = "+ rect.areaofrectangle();
+
+
+//Example 7
+
+class cal{
+    constructor()
+    {
+        let a1 = prompt("Enter Your Number");
+        this.a=parseInt(a1);
+
+        let b1 = prompt("Enter Your Symbol");
+        this.b= b1;
+
+        let c1 = prompt("Enter Your Number");
+        this.c=parseInt(c1);
+    }
+    calculator()
+    {
+   switch(this.b)
+   {
+    case "+":
+      let  x=this.a + this.c;
+       return x;
+     
+
+        break;
+
+    case "-":
+        x1=this.a-this.c;
+        return x1;
+       
+
+        break;
+
+    case "*":
+        x2=this.a*this.c;
+        return x2;
+       
+
+        break;
+
+    case "/":
+        x3=this.a/this.c;
+        return x3;
+
+        break;
+        
+    default: x4 = "Invalid Code...";
+    return x4;
+
+
+}
+    }
+}
+
+const calcu = new cal();
+document.getElementById("mm").innerHTML="Your Ans =" + calcu.calculator();
