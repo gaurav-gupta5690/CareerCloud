@@ -64,6 +64,7 @@ age()
 }
 }
 const j = new carr("Nexon", 2020);
+
 document.getElementById("jj").innerHTML="My car is " + j.age()+" Year Old";
 
 
@@ -90,47 +91,47 @@ const ar = new area(3,8);
 document.getElementById("kk").innerHTML="Area of Tringle =" + ar.areaoftringle();
 
 
-// //Example 5
+//Example 5
 
-// class Circle{
-//     constructor()
-//     {
-//         let r2=prompt("Enter Any Number For Circle");
-//         this.r1=parseInt(r2);
-//     }
+class Circle{
+    constructor()
+    {
+        let r2=prompt("Enter Any Number For Circle");
+        this.r1=parseInt(r2);
+    }
 
 
-// areaofcircle()
-// {
-//     let a = 3.14*this.r1*this.r1;
-//     return a;
-// }
-// }
+areaofcircle()
+{
+    let a = 3.14*this.r1*this.r1;
+    return a;
+}
+}
 
-// const cir = new Circle();
-// document.getElementById("ll").innerHTML="Area Of Circle = "+ cir.areaofcircle();
+const cir = new Circle();
+document.getElementById("ll").innerHTML="Area Of Circle = "+ cir.areaofcircle();
 
 
 // //Example 6
 
-// class rectangle{
-//     constructor()
-//     {
-//         let l1= prompt("Enter length of Rectangle");
-//         this.l=parseInt(l1);
-//         let w1= prompt("Enter Width of Rectangle");
-//         this.w=parseInt(w1);
-//     }
+class rectangle{
+    constructor()
+    {
+        let l1= prompt("Enter length of Rectangle");
+        this.l=parseInt(l1);
+        let w1= prompt("Enter Width of Rectangle");
+        this.w=parseInt(w1);
+    }
 
-//     areaofrectangle()
-//     {
-//         let b = this.l*this.w;
-//         return b;
-//     }
-// }
+    areaofrectangle()
+    {
+        let b = this.l*this.w;
+        return b;
+    }
+}
 
-// const rect =  new rectangle();
-// document.getElementById("mm").innerHTML="Your Area of Rectangle is = "+ rect.areaofrectangle();
+const rect =  new rectangle();
+document.getElementById("mm").innerHTML="Your Area of Rectangle is = "+ rect.areaofrectangle();
 
 
 //Example 7
@@ -187,4 +188,44 @@ class cal{
 }
 
 const calcu = new cal();
+
 document.getElementById("mm").innerHTML="Your Ans =" + calcu.calculator();
+
+
+//Example 8
+
+
+
+class Evenodd{
+    constructor()
+    {
+        const a1 = prompt("Enter a number: ");
+        this.a=parseInt(a1);
+    }
+
+    number(){
+        if(this.a % 2 == 0) {
+          document.getElementById("oo").innerHTML="Your number is Even";
+        }
+        
+        else {
+            document.getElementById("pp").innerHTML="Your number is Odd";
+        }
+    }
+}
+
+const num = new Evenodd();
+
+document.getElementById("qq").innerHTML="Your Ans is = " + num.number();
+
+
+// Example 9
+
+
+
+let i
+
+for(i=1;i<=100;i=i+1 ) 
+{
+  document.getElementById("").innerHTML=(i)
+}
