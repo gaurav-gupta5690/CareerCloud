@@ -1,18 +1,14 @@
 //Example 1
 
-
-
 class person{
     eat (){
         document.getElementById("aa").innerHTML=("eat");
     }
-
     sleep()
     {
         document.getElementById("bb").innerHTML=("sleep");
     }
 }
-
 class Engineers extends person{
     work()
     {
@@ -20,9 +16,7 @@ class Engineers extends person{
 
     }
 }
-
 let obj = new Engineers();
-
 obj.eat();
 obj.sleep();
 obj.work();
@@ -55,11 +49,8 @@ class DayNight extends per{
 }
 
 let xyz = new DayNight();
-
 document.getElementById("dd").innerHTML=xyz.aa();
 
 document.getElementById("ee").innerHTML=xyz.bb();
 
 document.getElementById("ff").innerHTML=xyz.cc();
-
-

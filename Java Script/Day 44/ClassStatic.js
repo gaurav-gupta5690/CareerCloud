@@ -13,4 +13,3 @@ static hello()
 const a = new A("Gaurav");
 
 document.getElementById("aa").innerHTML= A.hello();
-

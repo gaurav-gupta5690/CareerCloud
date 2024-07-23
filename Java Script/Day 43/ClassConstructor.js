@@ -220,12 +220,3 @@ document.getElementById("qq").innerHTML="Your Ans is = " + num.number();
 
 
 // Example 9
-
-
-
-let i
-
-for(i=1;i<=100;i=i+1 ) 
-{
-  document.getElementById("").innerHTML=(i)
-}
