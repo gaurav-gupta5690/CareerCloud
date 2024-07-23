@@ -30,9 +30,3 @@
 
   const obj = new B(4);
   obj.display();
-
-  const obj1 = new B(6);
-  obj1.display();
-
-  const obj2 = new B(5);
-  obj2.display();
