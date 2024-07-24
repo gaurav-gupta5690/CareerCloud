@@ -1,0 +1,31 @@
+/* HOW TO ADD IMAGE IN TEXT COLOR */
+
+
+#a{
+    font-size: 70px;
+    background-image: url(Bhagwaimg.jpg);
+    background-size: contain;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+}
+
+
+#b{
+    font-size: 100px;
+    background-image: url(shoot.JPG);
+    background-size: contain;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+}
+
+#c{
+    font-size: 100px;
+    background-image: url(hacking\ image.jpg);
+    background-size: contain;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+}
+
