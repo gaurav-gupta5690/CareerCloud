@@ -16,7 +16,7 @@ function getdata(dataID, getNextData){
             document.getElementById("bb").innerHTML="Data"+dataID;
 
             resolve("Success")
-
+            
             if(getNextData)
             {
                 getNestData();
